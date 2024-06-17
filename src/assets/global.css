@@ -1,0 +1,117 @@
+.product-card {
+    background: #EEEEEE;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    text-align: center;
+  }
+  
+  .product-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .btn-buy{
+    margin-top: 1rem; 
+    background: #604CC3; 
+    color: #FFF;
+    font-size: 0.8rem; 
+    width: 100%;
+  }
+  
+  .product-list-container{
+    margin: 0 auto;
+    padding: 10px;
+  }
+  
+  .product-details-page {
+    margin: 0 auto;
+    padding: 10px;
+  }
+  
+  .product-details-page img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: contain;
+  }
+  
+  .product-description {
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .product-grid-detail {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+  
+  .container-detail-page{
+    display: flex; 
+    width: 100%; 
+    gap: 3rem;
+  }
+  
+  .container-order-summary{
+    width: 500px; 
+    color: #604CC3;
+    text-align: left;
+  }
+  
+  .color-product{
+    border-radius: 100%;
+    height: 2rem;
+    width: 2rem;
+  }
+  
+  .size-product{
+    cursor: pointer; 
+    border-radius: 10%; 
+    height: 2rem; 
+    width: 2rem; 
+    background: #EEEEEE; 
+    color: #604CC3; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+  }
+  
+  .value-qty{
+    font-weight: bold; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+  }
+  
+  .btn-add-cart{
+    margin-top: 1rem; 
+    color: #604CC3; 
+    background: #EEEEEE; 
+    font-size: 0.8rem; 
+    width: 100%;
+  }
+  
+  .desc-detail{
+    max-width: 500px;
+    text-align: left;
+    color: #604CC3;
+  }
+  
+  .single-line-ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 150px;
+    font-size: 0.8rem;
+  }
+  
+  #root {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
